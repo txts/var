@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feminist Hacker Barbie #89</title>
+  <link rel="icon" 
+        type="image/png" 
+        href="/static/img/barbie.favicon">
+
+    <link rel="stylesheet" href="/static/css/bootstrap-theme.css" type="text/css" />
+    <script src="/static/js/jquery-1.11.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56891376-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<meta property="og:title" content="Feminist Hacker Barbie #89" />
+<meta property="og:description" content="&quot;This command-line tool I wrote should help you trace any bugs you encounter while interfacing with the architecture I designed. It&#39;s easy enough that even a software engineer should be able to figure it out.&quot;" /> 
+<meta property="og:image" content="https://i.imgur.com/waeS7rb.png" /> 
+
+<style type="text/css">
+  .barbiethumb {
+    max-height: 200px;
+    max-width: 200px;
+    border: 2px solid #eee;
+  }
+
+  #transcription {
+    margin-top: 30px;
+  }
+</style>
+
+
+
+<script type="text/javascript">
+
+
+  function flag(){
+    var r = confirm("Are you sure you want to flag #89 as inappropriate?");
+    if (r == true) {
+      $.post('/flag', 
+        {
+          adaptation_id: 89,
+          csrfmiddlewaretoken: 'oRGNH1K3FZh2hag2rizAHYwL4B8n3ngG',         
+        },
+        function(){
+          window.location = "/view/88";
+        });
+    }
+  }
+
+
+$(document).ready(function(){
+    $("body").keydown(function(e){
+        // left arrow
+        if ((e.keyCode || e.which) == 37) {   
+            window.location = "/view/88";
+        }
+        // right arrow
+        if ((e.keyCode || e.which) == 39) {
+            window.location = "/view/92";
+        }
+
+        
+    });
+});
+</script>
+
+
+
+
+</head>
+
+<body style="margin-top: 60px;">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><b>Feminist Hacker Barbie</b></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <!--<li class=""><a href="/">Latest</a></li>-->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+
+    
+
+<div class="col-lg-12 text-center">
+  <img src="https://i.imgur.com/waeS7rb.png" alt="&quot;This command-line tool I wrote should help you trace any bugs you encounter while interfacing with the architecture I designed. It&#39;s easy enough that even a software engineer should be able to figure it out.&quot;"
+   title="&quot;This command-line tool I wrote should help you trace any bugs you encounter while interfacing with the architecture I designed. It&#39;s easy enough that even a software engineer should be able to figure it out.&quot;" />
+
+    <p>
+      <a href="#" onclick="flag()">flag as inappropriate</a>
+    </p>
+
+  <a href="/new" class="btn btn-primary btn-lg">Create your own!</a>
+
+
+  
+
+    <pre id="transcription">
+      &quot;This command-line tool I wrote should help you trace any bugs you encounter while interfacing with the architecture I designed. It&#39;s easy enough that even a software engineer should be able to figure it out.&quot;
+    </pre>
+
+</div>
+
+
+
+
+</div>
+
+</body>
+</html>
+

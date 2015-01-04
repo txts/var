@@ -1,0 +1,19 @@
+---
+title: Automated Software Engineering
+layout: posts
+---
+
+<p>
+In the before time, olde worlde models were 
+laboriously 
+translated by hand into code, then forgotten (or, at least, never maintained).
+Those models were illusionary eye candy that were
+written once, read rarely, and run never.
+
+<p>
+21st century models are more intelligent. They are reflective. They  automatically argue back with you to point out
+the stuff you forgot to write down, or that you wrote down wrong.
+
+{% for post in site.categories.ase  %}
+   {% include onepost.html %}
+{% endfor %}

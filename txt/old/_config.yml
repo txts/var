@@ -1,0 +1,8 @@
+title:            Stuff2read
+tagline:          'When too many ideas just are not enough'
+description:      'Some crowdsourced textbooks'
+url:              http://txts.github.io
+mantrase: "Software engineering<br><span style='font-size: small;'>cs, ncstate spring'15</span>"
+markdown: redcarpet
+pygments: true
+

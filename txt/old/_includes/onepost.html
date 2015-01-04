@@ -1,0 +1,9 @@
+<p> 
+  <a href="{{ post.url }}">{{ post.title }}</a>: 
+    <br>
+      <em> 
+         by {{post.author}} on {{ post.date | date_to_string}}
+      </em>
+    <br>
+  {{post.excerpt}}
+</p>

@@ -1,0 +1,8 @@
+set -x
+old=`ls *.md | head -1`
+new="`date +'%Y-%m-%d'`-$1.md"
+gawk '/^---/  {In = 1 - In}
+      In {print }
+        END {print "---"} ' $old  > $new
+git add $new
+emacs $new &

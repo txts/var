@@ -1,0 +1,5 @@
+cd $1
+for i in `ls *.$2`
+do
+  echo $3/${i%.*}.$4
+done
